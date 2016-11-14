@@ -22,6 +22,12 @@
         background: none !important;
         padding: 0 !important;
     }
+    
+    a.circle-cat__img:hover {
+    background: #4080ff;
+}
+
+
 </style>
 <link rel="stylesheet" id="bbp-default-group-css" href="http://investorz.com/wp-content/plugins/bwp-minify/min/?f=wp-content/plugins/bbpress/templates/default/css/bbpress.css" type="text/css" media="screen">
 <link rel="stylesheet" id="responsive-lightbox-swipebox-group-css" href="http://investorz.com/wp-content/plugins/bwp-minify/min/?f=wp-content/plugins/responsive-lightbox/assets/swipebox/css/swipebox.min.css,wp-content/plugins/wp-polls/polls-css.css,wp-content/plugins/wp-pagenavi/pagenavi-css.css,verstka/css/style.css,wp-content/themes/atoz_2016/dialog/dialog.css,verstka/css/fa.css" type="text/css" media="all">

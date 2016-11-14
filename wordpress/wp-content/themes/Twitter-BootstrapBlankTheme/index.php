@@ -87,222 +87,53 @@ div#right-column {
       </p>
     </div>
   </div>
-        <div class="row" style="
-    margin-bottom: -8em;
-">
-          <div class="home-col-480 fl col-xs-12 col-sm-5">
+        <div class="row">
+          <div class="home-col-480 fl col-xs-12 col-sm-7">
             <!-- Market Analysis -->
               <div class="news-group">
     <h2 class="news-group-title">
-      <a href="category/market-news/index.html">Top Stories</a>
-    </h2>
-			    <div class="news-list">
-         <div class="news-item with-left-thumbnail">
-          <div class="row">
-            <div class="col-xs-4">
-                  
-			                                 
-             </div>
-            <div class="col-xs-8 np-left">
-              <div class="news-content">
-			    ADS Securities                                 <div class="clearfix"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-	    <div class="news-list">
-         <div class="news-item with-left-thumbnail">
-          <div class="row">
-            <div class="col-xs-4">
-                  
-			                                 
-             </div>
-            <div class="col-xs-8 np-left">
-              <div class="news-content">
-			    FxGrow                                 <div class="clearfix"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-	    <div class="news-list">
-         <div class="news-item with-left-thumbnail">
-          <div class="row">
-            <div class="col-xs-4">
-                  
-			                                 
-             </div>
-            <div class="col-xs-8 np-left">
-              <div class="news-content">
-			    Post 4 Title                 <p>Post 4</p>
-                <div class="clearfix"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-	    <div class="news-list">
-         <div class="news-item with-left-thumbnail">
-          <div class="row">
-            <div class="col-xs-4">
-                  
-			                                 
-             </div>
-            <div class="col-xs-8 np-left">
-              <div class="news-content">
-			    You won’t see Fed rate hike in September and here’s why                 <p>Following hawkish Fed Stanley Fisher comments at Jackson Hole, market have increased</p>
-                <div class="clearfix"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-	    <div class="news-list">
-         <div class="news-item with-left-thumbnail">
-          <div class="row">
-            <div class="col-xs-4">
-                  
-			                                 
-             </div>
-            <div class="col-xs-8 np-left">
-              <div class="news-content">
-			    What is so good about new 5 Australian Dollar note?                                 <div class="clearfix"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-	    <div class="news-list">
-         <div class="news-item with-left-thumbnail">
-          <div class="row">
-            <div class="col-xs-4">
-                  
-			                                 
-             </div>
-            <div class="col-xs-8 np-left">
-              <div class="news-content">
-			    Odds for S&amp;P 500 stock market crash are rising                                 <div class="clearfix"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-		  </div>
-
-            <!-- Subscribe for exclusive updates -->
-            <section class="subscribe" style="margin: 80px auto;
-    padding: 20px;
-    width: 300px;
-    background: white;
-    border-radius: 5px;
-    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);">
-    <div class="subscribe-pitch" style="padding-left: 120px;
-    background: url(http://files.cssflow.com/snippets/33-newsletter-form/img/email.png) 5px center no-repeat;">
-      <h3>Subscribe</h3>
-      <p>Subscribe to our newsletter to get the latest scoop right to your inbox.</p><p>
-    </p></div>
-    <form action="index.html" method="post" class="subscribe-form">
-      <input type="email" name="email" class="subscribe-input" placeholder="Email address" autofocus="">
-      <button type="submit" class="subscribe-submit">Subscribe</button>
-    </form>
-  </section>          </div>
-
-          <!-- Ads -->
-          <div class="home-col-480 fl col-xs-12 col-sm-7" style="padding-right: 8px;">
-  
-  
-  
-            <!-- Market Analysis -->
-              <div class="news-group">
-    <h2 class="news-group-title">
-      <a href="http://atozforex.com/category/market-news//">
+      <a href="category/market-news/index.html">
         Market Analysis      </a>
     </h2>
-                  <div class="news-item with-left-thumbnail">
+		<?php if ( have_posts() ) : ?>
+	<?php while ( have_posts() ) :$i++; the_post(); ?>
+    <div class="news-list">
+         <div class="news-item with-left-thumbnail">
           <div class="row">
             <div class="col-xs-4">
-                              <a class="news-image" href="" style="background-image: url('http://atozforex.com/wp-content/uploads/2016/03/Rate-differential-trades.jpg');"></a>
-                          </div>
+                  
+			<?php the_post_thumbnail(); ?>
+                                 
+             </div>
             <div class="col-xs-8 np-left">
               <div class="news-content">
-                <h3><a href="http://atozforex.com/news/uob-trade-ideas-for-forex-traders-4th-nov-0411/">UOB trade ideas for forex traders -4th November</a></h3>
-                <p>United Overseas Bank (UOB) shares its trade ideas for forex traders ahead of the USA Non-Farm Payrol...</p>
-                <span class="date fl">4 November 2016</span>
-                <a href="http://atozforex.com/news/uob-trade-ideas-for-forex-traders-4th-nov-0411/" class="read-more fr"></a>
+			    <?php the_title(); ?>
+                 <?php the_excerpt(); ?>
                 <div class="clearfix"></div>
               </div>
             </div>
           </div>
         </div>
-              <div class="news-item with-left-thumbnail hidden-sm">
-          <div class="row">
-            <div class="col-xs-4">
-                              <a class="news-image" href="" style="background-image: url('http://atozforex.com/wp-content/uploads/2016/11/us-election-1-139x90.jpg');"></a>
-                          </div>
-            <div class="col-xs-8 np-left">
-              <div class="news-content">
-                <h3><a href="http://atozforex.com/news/historic-us-elections-impact-on-stock-market/">Historic US elections impact on Stock Market</a></h3>
-                <p>Currently, traders are trying to manage the risk in their portfolios, ahead of the US elections. It ...</p>
-                <span class="date fl">3 November 2016</span>
-                <a href="http://atozforex.com/news/historic-us-elections-impact-on-stock-market/" class="read-more fr"></a>
-                <div class="clearfix"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-		<div class="news-item with-left-thumbnail hidden-sm">
-          <div class="row">
-            <div class="col-xs-4">
-                              <a class="news-image" href="" style="background-image: url('http://atozforex.com/wp-content/uploads/2016/11/us-election-1-139x90.jpg');"></a>
-                          </div>
-            <div class="col-xs-8 np-left">
-              <div class="news-content">
-                <h3><a href="http://atozforex.com/news/historic-us-elections-impact-on-stock-market/">Historic US elections impact on Stock Market</a></h3>
-                <p>Currently, traders are trying to manage the risk in their portfolios, ahead of the US elections. It ...</p>
-                <span class="date fl">3 November 2016</span>
-                <a href="http://atozforex.com/news/historic-us-elections-impact-on-stock-market/" class="read-more fr"></a>
-                <div class="clearfix"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-          
-  <div class="news-item with-left-thumbnail hidden-sm">
-          <div class="row">
-            <div class="col-xs-4">
-                              <a class="news-image" href="" style="background-image: url('http://atozforex.com/wp-content/uploads/2016/11/us-election-1-139x90.jpg');"></a>
-                          </div>
-            <div class="col-xs-8 np-left">
-              <div class="news-content">
-                <h3><a href="http://atozforex.com/news/historic-us-elections-impact-on-stock-market/">Historic US elections impact on Stock Market</a></h3>
-                <p>Currently, traders are trying to manage the risk in their portfolios, ahead of the US elections. It ...</p>
-                <span class="date fl">3 November 2016</span>
-                <a href="http://atozforex.com/news/historic-us-elections-impact-on-stock-market/" class="read-more fr"></a>
-                <div class="clearfix"></div>
-              </div>
-            </div>
-          </div>
-        </div><div class="news-item with-left-thumbnail hidden-sm">
-          <div class="row">
-            <div class="col-xs-4">
-                              <a class="news-image" href="" style="background-image: url('http://atozforex.com/wp-content/uploads/2016/11/us-election-1-139x90.jpg');"></a>
-                          </div>
-            <div class="col-xs-8 np-left">
-              <div class="news-content">
-                <h3><a href="http://atozforex.com/news/historic-us-elections-impact-on-stock-market/">Historic US elections impact on Stock Market</a></h3>
-                <p>Currently, traders are trying to manage the risk in their portfolios, ahead of the US elections. It ...</p>
-                <span class="date fl">3 November 2016</span>
-                <a href="http://atozforex.com/news/historic-us-elections-impact-on-stock-market/" class="read-more fr"></a>
-                <div class="clearfix"></div>
-              </div>
-            </div>
-          </div>
-        </div></div>
+    </div>
+	<?php endwhile; ?>
+	<?php endif; ?>
+  </div>
 
             <!-- Subscribe for exclusive updates -->
-                      </div>
+            <div class="green-box">
+  <form method="POST" id="form-exclusive-updates" action="#">
+    <h3>Subscribe to investorz Forex <span>exclusive updates!</span></h3>
+    <div class="input-box">
+      <input type="text" name="email" placeholder="Email" value="">
+      <input type="button" class="subscribe-to-investorz" value="Submit">
+    </div>
+  </form>
+</div>          </div>
+
+          <!-- Ads -->
+          <div class="home-col-300 fr col-xs-12 col-sm-5 ads-group home_right_adv">
+            <!-- new -->
+            <div id="execphp-74" class="widget widget_execphp">			<div class="execphpwidget"><a href="../external.html?link=http://goaff.trade360.com/visit/?bta=45015&amp;nci=5697" target="_Top"><img border="0" src="../external.html?link=http://trade360.ck-cdn.com/tn/serve/?cid=363846" width="300" height="250"></a></div>		</div><div id="execphp-75" class="widget widget_execphp">			<div class="execphpwidget"><a href="trading-tools/forex-indicators/index.html" target="_blank" title="Forex_Indicators"><img src="wp-content/uploads/2016/07/investorzForex-trading-tools.jpg" "="" width="331" height="323" border="0" alt="Indicators"></a></div>		</div><div id="execphp-76" class="widget widget_execphp">			<div class="execphpwidget"><a href="../external.html?link=http://www.ads-securities.co.uk/secure-broker/?utm_source=cpm&amp;utm_medium=broker-profile&amp;utm_campaign=2015-q4-investorzforex&amp;cmp=investorzforex" target="_blank"><img src="wp-content/uploads/2016/05/ADS-Securities-London-550x90.jpg"></a></div>		</div>          </div>
         </div>
       </div>
         
@@ -332,45 +163,20 @@ div#right-column {
   <hr>
             <div class="other">
                         <div class="row">
-        		<div class="col-xs-12 col-lg-6">
+        <?php while ( have_posts() ) :$i++; the_post(); ?>
+		<div class="col-xs-12 col-lg-6">
 		  <div class="news-item non-featured expanded">
-      ADS Securities		
-      </div>
-	  
-    </div>
-			<div class="col-xs-12 col-lg-6">
-		  <div class="news-item non-featured expanded">
-      FxGrow<img width="123" height="43" src="http://theforexmastermind.com/wordpress/wp-content/uploads/2016/09/atoz_fxgrow_logo.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="atoz_fxgrow_logo">		
-      </div>
-	  
-    </div>
-			<div class="col-xs-12 col-lg-6">
-		  <div class="news-item non-featured expanded">
-      Post 4 Title<img width="539" height="282" src="http://theforexmastermind.com/wordpress/wp-content/uploads/2016/09/N26-team-2016.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="N26-team-2016" srcset="http://theforexmastermind.com/wordpress/wp-content/uploads/2016/09/N26-team-2016.png 539w, http://theforexmastermind.com/wordpress/wp-content/uploads/2016/09/N26-team-2016-300x157.png 300w" sizes="(max-width: 539px) 100vw, 539px"><p>Post 4</p>
+      <?php
+	   the_title();
+	   the_post_thumbnail();
+	   the_excerpt();
+		?>
 		
       </div>
 	  
     </div>
-			<div class="col-xs-12 col-lg-6">
-		  <div class="news-item non-featured expanded">
-      You won’t see Fed rate hike in September and here’s why<p>Following hawkish Fed Stanley Fisher comments at Jackson Hole, market have increased</p>
-		
-      </div>
+	<?php endwhile; ?>
 	  
-    </div>
-			<div class="col-xs-12 col-lg-6">
-		  <div class="news-item non-featured expanded">
-      What is so good about new 5 Australian Dollar note?		
-      </div>
-	  
-    </div>
-			<div class="col-xs-12 col-lg-6">
-		  <div class="news-item non-featured expanded">
-      Odds for S&amp;P 500 stock market crash are rising		
-      </div>
-	  
-    </div>
-		  
               
           </div>
 
@@ -407,31 +213,8 @@ div#right-column {
       </div>
 	  
 	  <div class="home-col-480 sidebar fl col-xs-12 col-sm-4">
-	 
-        <div class="span4">
-            <div class="well sidebar-nav">
-                            </div>
-            <!--/.well .sidebar-nav -->
-        </div><!-- /.span4 -->
-
-	  </div>
-<div>
-
-
-
-<div class="home-col-480 sidebar fl col-xs-12 col-sm-4" style="
-    background: url('http://www.hassaankhan.com/blog/wp-content/uploads/2015/05/Sell-Your-Service.png');
-    height: 19em;
-    margin-top: 17em;
-    margin-left: 26px;
-    width: 34em;
-    zoom: 77%;
-">
-	 
-        <!-- /.span4 -->
-
-	  </div>
-</div>	 	   
+	 <?php get_sidebar(); ?>
+	  </div> 
 	  
 	
 	  
@@ -493,12 +276,13 @@ div#right-column {
             <div class="contributor-articles">
   <div class="news-group">
     <h2 class="news-group-title">
-      <a href="category/guest-post/index.html">Guest Article</a>
+      <a href="category/guest-post/index.html">
+          Blank Section </a>
     </h2>
     <div class="news-list">
               <div class="news-item featured">
                     Blank Image Section
-					<br>
+					<br/>
                     <div class="news-content">
             Blank Section
           </div>
@@ -652,7 +436,7 @@ div#right-column {
           <div class="col-xs-12 col-sm-4 col-md-5 hidden-xs hidden-sm">
             <div class="news-group ads-group">
   <h2 class="news-group-title">
-Interviews</h2></div>
+Interviews</div>
           </div>
         </div>
       </div>
@@ -683,24 +467,26 @@ Interviews</h2></div>
 
 		
 		 
-	  
-        <div class="col-xs-6 col-sm-4 col-md-3">
-          <div class="news-group forex-brokers broker-single">
-		 
-		 <p><a href="http://theforexmastermind.com/wordpress/ads/" rel="attachment wp-att-113"><img class="alignnone size-full wp-image-113" src="http://theforexmastermind.com/wordpress/wp-content/uploads/2016/09/ads-LOGO-167x43.png" alt="ads-LOGO-167x43" width="167" height="43"></a></p>
-		 
-</div>
+	<?php	 
+	$test = new WP_Query('type=post&category_name=Broker');
+if($test->have_posts()):
 
-</div>
+while ($test-> have_posts() ) :$i++;$test-> the_post(); ?>
   
         <div class="col-xs-6 col-sm-4 col-md-3">
           <div class="news-group forex-brokers broker-single">
 		 
-		 <p><a href="http://theforexmastermind.com/wordpress/2016/09/06/ads-securities__trashed/atoz_fxgrow_logo/" rel="attachment wp-att-114"><img class="alignnone size-full wp-image-114" src="http://theforexmastermind.com/wordpress/wp-content/uploads/2016/09/atoz_fxgrow_logo.png" alt="atoz_fxgrow_logo" width="123" height="43"></a></p>
+		 <?php the_content()?>
 		 
 </div>
 
 </div>
+<?php endwhile;
+endif;
+
+wp_reset_postdata();
+
+?>
 
 	 </div>  
 
@@ -710,7 +496,7 @@ Interviews</h2></div>
         <div class="hidden-xs col-sm-4 col-md-5" style="border:1px solid black;">
         <div class="news-group col-xs-12">
 
-    <p>Twitter Widget</p>
+    <P>Twitter Widget</P>
 
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
@@ -742,9 +528,6 @@ Interviews</h2></div>
     </div>
     
   </div>
-
-
-
 
 
 <?php get_footer(); ?>

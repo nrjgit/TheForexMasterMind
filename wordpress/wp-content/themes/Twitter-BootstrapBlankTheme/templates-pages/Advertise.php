@@ -168,7 +168,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 ">
 
 
-        <div class="jumbotron jumbotron08" style="min-height: 464px;background-position: center top;/* width: 100%; */background-color: #ffffff;background-image: url('http://www.medgatetoday.com/upload/articles/adver_with_us.jpg');background-size: 100%;.jumbotron {min-height: 464px;background-repeat: no-repeat;background-position: center top;background-size: cover;position: relative;margin-bottom: 0;  }">
+        <div class="jumbotron jumbotron08" style="min-height: 464px;margin-top: 1em;background-position: center top;/* width: 100%; */background-color: #ffffff;background-image: url('http://www.medgatetoday.com/upload/articles/adver_with_us.jpg');background-size: 100%;.jumbotron {min-height: 464px;background-repeat: no-repeat;background-position: center top;background-size: cover;position: relative;margin-bottom: 0;  }">
             <div class="container">
                 
                 <a href="#" class="btn btn-danger btn-xl move-down" style="
@@ -186,13 +186,34 @@ Over 800,000 subscribers and 35% increase in web traffic every quarter make <a h
         </div>
 
 
-        <div class="service-list">
+
+		<div class="service-list">
             <div class="container">
                 <div class="service-list__title">our services</div>
                 
                 <div class="row">
                     <div class="tab-content">
                         <div id="AtoZForex" class="tab-pane fade in active">
+  
+  <div class="service-item">
+                                    <div class="service-item__img">
+                                        <a href="/about/contact-us/">
+                                            <img src="http://atozforex.com/wp-content/uploads/2015/10/service-img7.png" alt="Paid search <br />(PPC) ">
+                                        </a>
+                                    </div>
+                                    <div class="service-item__text">
+                                        Paid search <br>(PPC)                                     </div>
+                                </div>
+<div class="service-item">
+                                    <div class="service-item__img">
+                                        <a href="/about/contact-us/">
+                                            <img src="http://atozforex.com/wp-content/uploads/2015/10/service-img5.png" alt="Newsletter <br />blast">
+                                        </a>
+                                    </div>
+                                    <div class="service-item__text">
+                                        Newsletter <br>blast                                    </div>
+                                </div>
+  
                                                             <div class="service-item">
                                     <div class="service-item__img">
                                         <a href="/about/contact-us/">
@@ -202,6 +223,17 @@ Over 800,000 subscribers and 35% increase in web traffic every quarter make <a h
                                     <div class="service-item__text">
                                         Web banners <br>display                                    </div>
                                 </div>
+<div class="service-item">
+                                    <div class="service-item__img">
+                                        <a href="/about/contact-us/">
+                                            <img src="http://atozforex.com/wp-content/uploads/2015/10/service-img4.png" alt="Newsletter <br />banner ">
+                                        </a>
+                                    </div>
+                                    <div class="service-item__text">
+                                        Newsletter <br>banner                                     </div>
+                                </div>
+  
+  
                                                             <div class="service-item">
                                     <div class="service-item__img">
                                         <a href="/about/contact-us/">
@@ -211,33 +243,9 @@ Over 800,000 subscribers and 35% increase in web traffic every quarter make <a h
                                     <div class="service-item__text">
                                         Forex directory <br>listing                                     </div>
                                 </div>
-                                                            <div class="service-item">
-                                    <div class="service-item__img">
-                                        <a href="/about/contact-us/">
-                                            <img src="http://atozforex.com/wp-content/uploads/2015/10/service-img3.png" alt="Featured Forex <br />directory listing ">
-                                        </a>
-                                    </div>
-                                    <div class="service-item__text">
-                                        Featured Forex <br>directory listing                                     </div>
-                                </div>
-                                                            <div class="service-item">
-                                    <div class="service-item__img">
-                                        <a href="/about/contact-us/">
-                                            <img src="http://atozforex.com/wp-content/uploads/2015/10/service-img4.png" alt="Newsletter <br />banner ">
-                                        </a>
-                                    </div>
-                                    <div class="service-item__text">
-                                        Newsletter <br>banner                                     </div>
-                                </div>
-                                                            <div class="service-item">
-                                    <div class="service-item__img">
-                                        <a href="/about/contact-us/">
-                                            <img src="http://atozforex.com/wp-content/uploads/2015/10/service-img5.png" alt="Newsletter <br />blast">
-                                        </a>
-                                    </div>
-                                    <div class="service-item__text">
-                                        Newsletter <br>blast                                    </div>
-                                </div>
+                                                            
+                                                            
+                                                            
                                                             <div class="service-item">
                                     <div class="service-item__img">
                                         <a href="/about/contact-us/">
@@ -247,38 +255,18 @@ Over 800,000 subscribers and 35% increase in web traffic every quarter make <a h
                                     <div class="service-item__text">
                                         Sponsored <br>webinars                                    </div>
                                 </div>
-                                                            <div class="service-item">
-                                    <div class="service-item__img">
-                                        <a href="/about/contact-us/">
-                                            <img src="http://atozforex.com/wp-content/uploads/2015/10/service-img7.png" alt="Paid search <br />(PPC) ">
-                                        </a>
-                                    </div>
-                                    <div class="service-item__text">
-                                        Paid search <br>(PPC)                                     </div>
-                                </div>
-                                                            <div class="service-item">
-                                    <div class="service-item__img">
-                                        <a href="/about/contact-us/">
-                                            <img src="http://atozforex.com/wp-content/uploads/2015/10/service-img8.png" alt="Social media <br />features ">
-                                        </a>
-                                    </div>
-                                    <div class="service-item__text">
-                                        Social media <br>features                                     </div>
-                                </div>
-                                                            <div class="service-item">
-                                    <div class="service-item__img">
-                                        <a href="/about/contact-us/">
-                                            <img src="http://atozforex.com/wp-content/uploads/2015/10/service-img9.png" alt="Recruitment solutions <br /><span>(job board on atozforex.com)</span>">
-                                        </a>
-                                    </div>
-                                    <div class="service-item__text">
-                                        Recruitment solutions <br><span>(job board on <a href="#">atozforex</a>.com)</span>                                    </div>
-                                </div>
+                                                            
+                                                            
+                                                            
                                                     </div>
                     </div>
                 </div>
             </div>
         </div>
+		
+		
+		
+		
     </div>
 	
 

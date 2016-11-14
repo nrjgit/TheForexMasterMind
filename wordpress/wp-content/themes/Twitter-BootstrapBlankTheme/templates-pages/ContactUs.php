@@ -2,8 +2,24 @@
 
 <?php get_header(); ?>
 
+<style type="text/css">
 
-<div class="container" style="margin-top: 1em;">
+
+.dropdown-toggle, .main-navigation ul .dropdown-toggle.toggled-on, .menu-toggle, .row {
+    /* margin-left: -15px; */
+    margin-right: -15px;
+}
+
+.btn {
+    /* text-transform: uppercase; */
+    font-size: 14px;
+    font-weight: 200;
+    padding: 0 10px;
+    line-height: 1.6em;
+}
+</style>
+
+<div class="container" style="margin-top: 1em; height: 58em;">
          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 contact_Usbox">
             <h1>GET IN TOUCH</h1>
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 contact_UsDiv">
@@ -56,3 +72,4 @@
 
 
 <?php get_footer(); ?>
+

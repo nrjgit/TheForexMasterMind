@@ -9,20 +9,18 @@
       <div class="column-left">
         <div class="academy-sidebar">
           <div class="academy-sidebar-top">
-            <ul>
-              
-              
+            <ul>                            
               <li class="active">
-                <a href="/forex-education/fx-basics/">Basic Forex Trading</a>
+                <a href="/wordpress/fx-basics/">Basic Forex Trading</a>
               </li>
               <li>
-                <a href="/forex-education/elementary-level/">Elementary Forex Trading</a>
+                <a href="/wordpress/Elementary-Forex-Trading/">Elementary Forex Trading</a>
               </li>
               <li>
-                <a href="/forex-education/advanced-trading/">Advanced Forex Trading</a>
+                <a href="/wordpress/Advanced-Forex-Trading/">Advanced Forex Trading</a>
               </li>
               <li>
-                <a href="/forex-education/pro-trading/">Pro Forex Trading</a>
+                <a href="/wordpress/Pro-Forex-Trading/">Pro Forex Trading</a>
               </li>
             </ul>
           </div>
