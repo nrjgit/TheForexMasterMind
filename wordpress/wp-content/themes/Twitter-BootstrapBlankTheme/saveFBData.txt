@@ -1,0 +1,24 @@
+<div class="user-links">
+  			  
+			  						  <?php if (is_user_logged_in()) { ?>
+    	<a href="<?php echo wp_logout_url( home_url() ); ?>">Logout</a>
+<?php } else { 
+get_template_part('ajax', 'auth'); 
+
+?>            	
+        <a class="fancybox-popup" class="login_button" id="show_login" href="#loginForm">Login</a>
+        <a class="fancybox-popup" class="login_button" id="show_signup" href="#SignUpForm">register</a>
+		
+		
+		<div id="login-button">
+    <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+    </fb:login-button>
+</div>
+
+<div id="status">
+</div>
+
+
+<?php } ?>
+
+  </div>
