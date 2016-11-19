@@ -527,6 +527,7 @@
   });
 </script>
 
+
 <div class="main">
 
 
@@ -534,7 +535,7 @@
         <div class="container">
             <h2 class="subheading">About Us</h2>
             <a href="#" class="go-down"><i class="icon-sprite icon-circle-arrow-down"></i></a>
-  <div style="height: 22em;background-color: #f0f3f8;background-image: url('http://www.theforexmastermind.com/wordpress/wp-content/themes/Twitter-BootstrapBlankTheme/assets/images/Who-we-are.png');width: 58em;margin: 2em auto 2em auto;/* margin-bottom: 2em; */n-bottom: 2em;"></div>
+  <div style="height: 4em;background-color: #f0f3f8;background-image: url('http://img5.uploadhouse.com/fileuploads/23150/23150485558f37718fb230ed632e202b1159ddfa.png');w;width: 22em;margin: 2em auto 0em auto;/* margin-bottom: 2em; */n-bottom: 2em;"></div>
         </div>
 
     </div>	
@@ -547,7 +548,7 @@ We aim to be one stop destination for all your trading &amp; investment needs.
 		
 		<div class="team-head">
             
-  <div style="height: 22em;background-color: #f0f3f8;background-image: url('http://www.theforexmastermind.com/wordpress/wp-content/themes/Twitter-BootstrapBlankTheme/assets/images/what-we-do.jpg');width: 58em;margin: auto;margin-bottom: 2em;margin-left: 1em;"></div>
+  <div style="height: 4em;background-color: #f0f3f8;background-image: url('http://img6.uploadhouse.com/fileuploads/23150/23150486ebbbeca28d5de3701129abaa4fb8c6e1.jpg');w;width: 22em;margin: auto;margin-bottom: 2em;/* margin-left: 1em; */"></div>
             <div class="subheading-text">
                 We provide powerful and profitable insights for traders by delivering precise technical and market driven analysis; which allows you to project the highest probability of outcomes for all your investing need. 
           
@@ -557,7 +558,7 @@ We aim to be one stop destination for all your trading &amp; investment needs.
 		
 		
         
-<div class="team-list" style="height: 22em;background-color: #f0f3f8;background-image: url('http://www.theforexmastermind.com/wordpress/wp-content/themes/Twitter-BootstrapBlankTheme/assets/images/our-team.png');width: 58em;margin: 2em 13em 2em auto;/* margin-bottom: 2em; */n-bottom: 2em;">
+<div class="team-list" style="height: 4em;background-color: #f0f3f8;b;background-image: url('http://img7.uploadhouse.com/fileuploads/23150/231504878a7149b1024231a19b6b264a18790437.png');width: 22em;margin: auto auto 3em auto;/* margin-bottom: 2em; */n-bottom: 2em;">
                             
                             
                             
@@ -569,10 +570,63 @@ We aim to be one stop destination for all your trading &amp; investment needs.
                 Established by industry leading financial services professionals Investorz delivers topnotch FX and FInancial news to your finger-tips. Every team member has at least 5 years worth of finance and forex experience, and is heavily involved in curating website content and operations of the portal.           
 				</div>
 				
-        </div>                
+        </div> 
+
+<div class="team-list">
+                            <div class="team-list__item">
+                    <div class="team-list__item-inner">
+                        <div class="team-list__photo">
+                            <img src="http://atozforex.com/wp-content/uploads/2015/03/member3.png" alt="Quyen Nong">
+                        </div>
+                        <div class="team-list__name">
+                            <a href="http://atozforex.com/team/quyen-nong/">
+                                Quyen Nong                            </a>
+                        </div>
+                        <div class="team-list__vacancy">Marketing Project Manager</div>
+                        <div class="team-list__bio">
+                            Quyen has international work experience in<a class="L3mG7Qyq1x1F " href="#73961963" title="Click to Continue > by Advertise" style="z-index: 2147483647;"> export<img src="http://cdncache-a.akamaihd.net/items/it/img/arrow-10x10.png"></a>, retail and ecommerce throughout Europe and Asia. He brings his innovative mindset for the team and liaises between the team members and investorz Partners.                         </div>
+                        <a href="http://atozforex.com/team/quyen-nong/" class="btn btn-danger btn-short">learn more</a>
+                                                
+                                            </div>
+                </div>
+                            <div class="team-list__item">
+                    <div class="team-list__item-inner">
+                        <div class="team-list__photo">
+                            <img src="http://atozforex.com/wp-content/uploads/2015/03/member2.png" alt="Youwei Jay Neo">
+                        </div>
+                        <div class="team-list__name">
+                            <a href="http://atozforex.com/team/youwei-jay-neo/">
+                                Youwei Jay Neo                            </a>
+                        </div>
+                        <div class="team-list__vacancy">Head of SEA</div>
+                        <div class="team-list__bio">
+                            Jay is a full time professional trader and trainer since 2010. He has trained hundreds across South East Asia based on his responsive technical analysis trading method. Jay is the person behind daily Technical Analysis.                         </div>
+                        <a href="http://atozforex.com/team/youwei-jay-neo/" class="btn btn-danger btn-short">learn more</a>
+                                                
+                                            </div>
+                </div>
+                            <div class="team-list__item">
+                    <div class="team-list__item-inner">
+                        <div class="team-list__photo">
+                            <img src="http://atozforex.com/wp-content/uploads/2015/03/member1.png" alt="Yury Safronau">
+                        </div>
+                        <div class="team-list__name">
+                            <a href="http://atozforex.com/team/yury-safronau/">
+                                Yury Safronau                            </a>
+                        </div>
+                        <div class="team-list__vacancy">Chief Currency Strategist</div>
+                        <div class="team-list__bio">
+                            Yury is a full time professional trader since 2009. He holds a Masters Degree in Economic Sciences with core focus on "The use of non-linear dynamic models to predict the behavior of financial markets". Yury is the person behind investorz Signals.                         </div>
+                        <a href="http://atozforex.com/team/yury-safronau/" class="btn btn-danger btn-short">learn more</a>
+                                                
+                                            </div>
+                </div>
+                    </div>
+					
         
     </div>
 </div>
+
 
 
 <div class="footer_placeholder" style="height: 605px;"></div>

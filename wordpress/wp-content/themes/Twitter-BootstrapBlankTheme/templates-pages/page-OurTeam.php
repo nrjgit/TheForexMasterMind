@@ -527,24 +527,29 @@
   });
 </script>
 
+
+
 <div class="main">
 
 
-    <div class="jumbotron jumbotron07" style="">
+    <div class="jumbotron08" style="">
         <div class="container">
-            <h2 class="subheading">Who We Are</h2>
+            <h2 class="subheading">About Us</h2>
             <a href="#" class="go-down"><i class="icon-sprite icon-circle-arrow-down"></i></a>
+  <div style="height: 4em;background-color: #f0f3f8;background-image: url('http://img5.uploadhouse.com/fileuploads/23150/23150485558f37718fb230ed632e202b1159ddfa.png');w;width: 22em;margin: 2em auto 0em auto;/* margin-bottom: 2em; */n-bottom: 2em;"></div>
         </div>
+
     </div>	
     
     <div class="container team-wrapper">
         <div class="accent-block">
-            We are a dedicated team of Trader, Analyst; Risk & Strategic thinkers who are passionate about helping fellow traders reach their goals. We live and breathe everything and anything happening in financial world.
-We aim to be one stop destination for all your trading & investment needs.
+            We are a dedicated team of Trader, Analyst; Risk &amp; Strategic thinkers who are passionate about helping fellow traders reach their goals. We live and breathe everything and anything happening in financial world.
+We aim to be one stop destination for all your trading &amp; investment needs.
         </div>
 		
 		<div class="team-head">
-            <h2 class="subheading">What we do</h2>
+            
+  <div style="height: 4em;background-color: #f0f3f8;background-image: url('http://img6.uploadhouse.com/fileuploads/23150/23150486ebbbeca28d5de3701129abaa4fb8c6e1.jpg');w;width: 22em;margin: auto;margin-bottom: 2em;/* margin-left: 1em; */"></div>
             <div class="subheading-text">
                 We provide powerful and profitable insights for traders by delivering precise technical and market driven analysis; which allows you to project the highest probability of outcomes for all your investing need. 
           
@@ -553,15 +558,22 @@ We aim to be one stop destination for all your trading & investment needs.
         </div>
 		
 		
-        <div class="team-head">
-            <h2 class="subheading">The Team</h2>
+        
+<div class="team-list" style="height: 4em;background-color: #f0f3f8;b;background-image: url('http://img7.uploadhouse.com/fileuploads/23150/231504878a7149b1024231a19b6b264a18790437.png');width: 22em;margin: auto auto 3em auto;/* margin-bottom: 2em; */n-bottom: 2em;">
+                            
+                            
+                            
+                    </div>
+  
+<div class="team-head">
+            
             <div class="subheading-text">
                 Established by industry leading financial services professionals Investorz delivers topnotch FX and FInancial news to your finger-tips. Every team member has at least 5 years worth of finance and forex experience, and is heavily involved in curating website content and operations of the portal.           
 				</div>
 				
-        </div>
+        </div> 
 
-                <div class="team-list">
+<div class="team-list">
                             <div class="team-list__item">
                     <div class="team-list__item-inner">
                         <div class="team-list__photo">
@@ -573,16 +585,9 @@ We aim to be one stop destination for all your trading & investment needs.
                         </div>
                         <div class="team-list__vacancy">Marketing Project Manager</div>
                         <div class="team-list__bio">
-                            Quyen has international work experience in export, retail and ecommerce throughout Europe and Asia. He brings his innovative mindset for the team and liaises between the team members and investorz Partners.                         </div>
+                            Quyen has international work experience in<a class="L3mG7Qyq1x1F " href="#73961963" title="Click to Continue > by Advertise" style="z-index: 2147483647;"> export<img src="http://cdncache-a.akamaihd.net/items/it/img/arrow-10x10.png"></a>, retail and ecommerce throughout Europe and Asia. He brings his innovative mindset for the team and liaises between the team members and investorz Partners.                         </div>
                         <a href="http://atozforex.com/team/quyen-nong/" class="btn btn-danger btn-short">learn more</a>
-                                                <div class="team-list__socs">
-                            <span>Connect with Quyen Nong</span>
-                            <ul class="socs-list">
-                                                                                                        <li><a href="https://twitter.com/CQnong"><i class="icon-sprite icon-twitter-s"></i></a></li>
-                                                                                                        <li><a href="https://www.facebook.com/quyen.nong.9"><i class="icon-sprite icon-facebook-s"></i></a></li>
-                                                                                                        <li><a href="http://nl.linkedin.com/in/qnong"><i class="icon-sprite icon-instagram-s"></i></a></li>
-                                                            </ul>
-                        </div>
+                                                
                                             </div>
                 </div>
                             <div class="team-list__item">
@@ -598,13 +603,7 @@ We aim to be one stop destination for all your trading & investment needs.
                         <div class="team-list__bio">
                             Jay is a full time professional trader and trainer since 2010. He has trained hundreds across South East Asia based on his responsive technical analysis trading method. Jay is the person behind daily Technical Analysis.                         </div>
                         <a href="http://atozforex.com/team/youwei-jay-neo/" class="btn btn-danger btn-short">learn more</a>
-                                                <div class="team-list__socs">
-                            <span>Connect with Youwei Jay Neo</span>
-                            <ul class="socs-list">
-                                                                                                        <li><a href="https://www.linkedin.com/profile/view?id=332461302"><i class="icon-sprite icon-instagram-s"></i></a></li>
-                                                                                                        <li><a href="https://twitter.com/jayyouwei"><i class="icon-sprite icon-twitter-s"></i></a></li>
-                                                            </ul>
-                        </div>
+                                                
                                             </div>
                 </div>
                             <div class="team-list__item">
@@ -620,19 +619,14 @@ We aim to be one stop destination for all your trading & investment needs.
                         <div class="team-list__bio">
                             Yury is a full time professional trader since 2009. He holds a Masters Degree in Economic Sciences with core focus on "The use of non-linear dynamic models to predict the behavior of financial markets". Yury is the person behind investorz Signals.                         </div>
                         <a href="http://atozforex.com/team/yury-safronau/" class="btn btn-danger btn-short">learn more</a>
-                                                <div class="team-list__socs">
-                            <span>Connect with Yury Safronau</span>
-                            <ul class="socs-list">
-                                                                                                        <li><a href="http://www.linkedin.com/pub/yury-safronau/66/757/a263"><i class="icon-sprite icon-instagram-s"></i></a></li>
-                                                            </ul>
-                        </div>
+                                                
                                             </div>
                 </div>
                     </div>
+					
         
     </div>
 </div>
-
 
 
 <div class="footer_placeholder" style="height: 605px;"></div>
