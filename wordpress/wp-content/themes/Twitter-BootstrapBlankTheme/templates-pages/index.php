@@ -1,4 +1,4 @@
-
+<?php /* Template Name: DefaultPage1 */ ?>
 <?php
 /**
  * Description: Default Index template to display loop of blog posts
@@ -495,30 +495,7 @@ div#right-column {
     <h2 class="news-group-title">
       <a href="category/guest-post/index.html">Guest Article</a>
     </h2>
-    <div class="news-list">
-              <div class="news-item featured">
-                    Blank Image Section
-					<br>
-                    <div class="news-content">
-            Blank Section
-          </div>
-        </div>
-                <div class="news-item">
-            <div class="news-content">
-          Blank Section
-            </div>
-          </div>
-                  <div class="news-item">
-            <div class="news-content">
-              Blank Section
-            </div>
-          </div>
-                  <div class="news-item">
-            <div class="news-content">
-           Blank Section
-            </div>
-          </div>
-            </div>
+   
   </div>
 </div>          </div>
 

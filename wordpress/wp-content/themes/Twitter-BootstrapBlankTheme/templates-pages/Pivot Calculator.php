@@ -32,63 +32,7 @@
         <div class="row">
             <div class="col-sm-2">
 
-                
-
-<div class="tools">
-    <div class="tools-button">
-        <a href="#" class="btn btn-tools"><div class="icon-sprite icon-three-bar"></div>Tools</a>
-    </div>
-    <div class="tools-menu-wrap">
-        <div class="tools-menu">
-            <ul>
-
-                
-                    
-                    <li>
-                        <a href="http://atozforex.com/trading-tools/forex-signals/" title="Free Forex Signals">
-                            <i class="icon icon-sprite icon-tool-signal"></i>
-                        </a>
-                    </li>
-
-                
-                    
-                    <li>
-                        <a href="http://atozforex.com/trading-tools/forex-indicators/" title="Indicators">
-                            <i class="icon icon-sprite icon-tools-indicators"></i>
-                        </a>
-                    </li>
-
-                
-                    
-                    <li>
-                        <a href="http://atozforex.com/trading-tools/fibonacci-calculator/" title="Fibonacci Calculator">
-                            <i class="icon icon-sprite icon-tools-calc"></i>
-                        </a>
-                    </li>
-
-                
-                    
-                    <li class="active">
-                        <a href="http://atozforex.com/trading-tools/pivot-calculator/" title="Pivot Point Calculator">
-                            <i class="icon icon-sprite icon-tools-calc"></i>
-                        </a>
-                    </li>
-
-                
-                    
-                    <li>
-                        <a href="http://atozforex.com/trading-tools/pip-calculator/" title="Pip calculator">
-                            <i class="icon icon-sprite icon-tools-calc"></i>
-                        </a>
-                    </li>
-
-                
-            </ul>
-        </div>
-    </div>
-</div>
-
-
+    
             </div>
             <div class="col-md-10 col-sm-10 col-xs-12 calculator-field">
 

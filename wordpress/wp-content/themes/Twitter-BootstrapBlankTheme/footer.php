@@ -114,7 +114,7 @@
     <!--end banner-->
   </div>
 
-  <div class="footer-botom">
+<div class="footer-botom">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -122,14 +122,14 @@
             <div class="row">
               <div class="col-md-6">
                 <span class="letter">Questions? Contact us today at </span>
-                <a href="mailto:info@atozforex.com">info@atozforex.com</a>
+                
                 <div class="sth">
                   <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-follow-button twitter-follow-button-rendered" title="Twitter Follow Button" src="http://platform.twitter.com/widgets/follow_button.c6def25548e9590b13abaa1b3330b811.en.html#dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=AtoZForex&amp;show_count=true&amp;show_screen_name=false&amp;size=m&amp;time=1474981609764" style="position: static; visibility: visible; width: 152px; height: 20px;" data-screen-name="AtoZForex"></iframe>
-                  <div class="fb-like fb_iframe_widget" data-href="https://www.facebook.com/atozmarkets" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=&amp;container_width=152&amp;href=https%3A%2F%2Fwww.facebook.com%2Fatozmarkets&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=true&amp;size=small"><span style="vertical-align: bottom; width: 76px; height: 20px;"><iframe name="f29ee456ac755c" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:like Facebook Social Plugin" src="https://www.facebook.com/v2.7/plugins/like.php?action=like&amp;app_id=&amp;channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FP5DLcu0KGJB.js%3Fversion%3D42%23cb%3Df23f09ae76e17bc%26domain%3Datozforex.com%26origin%3Dhttp%253A%252F%252Fatozforex.com%252Ff2c99b230f5615c%26relation%3Dparent.parent&amp;container_width=152&amp;href=https%3A%2F%2Fwww.facebook.com%2Fatozmarkets&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=true&amp;size=small" style="border: none; visibility: visible; width: 76px; height: 20px;" class=""></iframe></span></div>
+                  <div class="fb-like fb_iframe_widget" data-href="https://www.facebook.com/atozmarkets" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=1045152205601285&amp;container_width=76&amp;href=https%3A%2F%2Fwww.facebook.com%2Fatozmarkets&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=true&amp;size=small"><span style="vertical-align: bottom; width: 80px; height: 20px;"><iframe name="f3db3a395592444" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:like Facebook Social Plugin" src="https://www.facebook.com/plugins/like.php?action=like&amp;app_id=1045152205601285&amp;channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FfTmIQU3LxvB.js%3Fversion%3D42%23cb%3Df2fa1de73d21a8c%26domain%3Dtheforexmastermind.com%26origin%3Dhttp%253A%252F%252Ftheforexmastermind.com%252Ffa64730943c0d8%26relation%3Dparent.parent&amp;container_width=76&amp;href=https%3A%2F%2Fwww.facebook.com%2Fatozmarkets&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=true&amp;size=small" style="border: none; visibility: visible; width: 80px; height: 20px;" class=""></iframe></span></div>
                 </div>
               </div>
               <div class="col-md-6">
-                <span class="copy">Copyright © 2016 AtoZFX. All Rights Reserved.</span>
+                
                                 <span class="terms">
                                       <a href="http://atozforex.com/terms-and-conditions/">Terms &amp; Conditions</a>
                                       <a href="http://atozforex.com/terms-and-conditions/">Risk Disclaimer</a>
@@ -142,7 +142,8 @@
       </div>
     </div>
   </div>
-</footer>
+  
+  </footer>
 
  <?php wp_footer(); ?>
 		

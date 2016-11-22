@@ -1,7 +1,6 @@
-<?php /* Template Name: Forex Webinar */ ?>
-
-
-
+ <?php /* Template Name: ForexWebinar2 */ ?>
+ 
+<?php get_header(); ?> 
 <div class="container">
 
 <div class="main">
@@ -228,12 +227,15 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script type ="text/javascript">
- $('#Add_to_Calendar').click(function(){
+
+
+ $('.add-to-calendar').click(function(){
 
  var Date= $('.first__Col').val();
 
 alert(Date) ;
     });
- 
+	
+	
 </script>
 

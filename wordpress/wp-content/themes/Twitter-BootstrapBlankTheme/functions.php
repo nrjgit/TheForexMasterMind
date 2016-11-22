@@ -299,7 +299,7 @@ function add_theme_scripts() {
  
   wp_enqueue_style( 'slider', get_template_directory_uri() . '/assets/css/bootstrap-grid.css', array(), '1.1', 'all');
   wp_enqueue_style( 'home622a', get_template_directory_uri() . '/assets/css/home622a.css', array(), '1.1', 'all');
-  
+   
 
 }
 add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
@@ -813,56 +813,5 @@ $fname=$_REQUEST["fbname"];
 	else:
 	
 	endif;
-	
-  // if(isset($_GET['do']) && $_GET['do'] == 'register'):
-    // $errors = array();
-    // if(empty($_POST['user'])) 
-       // $errors[] = 'Please enter a fullname.<br>';
-    // if(empty($_POST['email'])) 
-       // $errors[] = 'Please enter a email.<br>';
 
-    // $user_login = esc_attr($_POST['user']);
-    // $user_email = esc_attr($_POST['email']);
-   
-    // $user_phone = esc_attr($_POST['phone']);
-    // $sanitized_user_login = sanitize_user($user_login);
-    // $user_email = apply_filters('user_registration_email', $user_email);
-  
-    // if(!is_email($user_email)) 
-       // $errors[] = 'Invalid e-mail.<br>';
-    // elseif(email_exists($user_email)) 
-       // $errors[] = 'This email is already registered.<br>';
-  
-    // if(empty($sanitized_user_login) || !validate_username($user_login)) 
-       // $errors[] = 'Invalid user name.<br>';
-    // elseif(username_exists($sanitized_user_login)) 
-       // $errors[] = 'User name already exists.<br>';
-  
-    // if(empty($errors)):
-      // $user_id = wp_create_user($sanitized_user_login, $user_pass, $user_email);
-  
-    // if(!$user_id):
-      // $errors[] = 'Registration failed';
-    // else:
-      // update_user_option($user_id, 'default_password_nag', true, true);
-      // wp_new_user_notification($user_id, $user_pass);
-      // update_user_meta ($user_id, 'user_phone', $user_phone);
-      // wp_cache_delete ($user_id, 'users');
-      // wp_cache_delete ($user_login, 'userlogins');
-      // do_action ('user_register', $user_id);
-      // $user_data = get_userdata ($user_id);
-      // if ($user_data !== false) {
-         // wp_clear_auth_cookie();
-         // wp_set_auth_cookie ($user_data->ID, true);
-         // do_action ('wp_login', $user_data->user_login, $user_data);
-         // // Redirect user.
-         // wp_redirect (home_url());
-         // exit();
-       // }
-      // endif;
-    // endif;
-  
-    // if(!empty($errors)) 
-      // define('REGISTRATION_ERROR', serialize($errors));
-  // endif;
 }
